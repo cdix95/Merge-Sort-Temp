@@ -78,9 +78,9 @@ int main (int argc, char * args[]) {
     for (int i = 0; i < 1001; ++i) b[i] = -50 + rand() % 100;
     Merge::msort(b, 0, 1000);
     assert(Merge::sorted(b, 1001));
-    int c[] = { 7 };
-    Merge::msort(c, 0, 6);
-    assert(Merge::sorted(c, 6));
+    int c[] = { 2 };
+    Merge::msort(c, 0, 1);
+    assert(Merge::sorted(c, 1));
     int d[] = { 43, 7, -46, 57, 11 };
     Merge::msort(d, 0, 4);
     assert(Merge::sorted(d, 5));
