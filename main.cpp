@@ -48,7 +48,7 @@ int main(int argc, char * args[]) {
 	int c[] = { 2 };
 	mergesort(c, 1);
 	assert(sorted(c, 1));
-	int d[] = { 1, 2, 3, 4, 5 };
+	int d[] = {78, 43, 2, 10, 27};
 	mergesort(d, 5);
 	assert(sorted(d, 5));
 	int z [0];
