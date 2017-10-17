@@ -31,9 +31,10 @@ void mergesort(T a[], int n) {
 
 template <class T>
 bool sorted(T a[], int n) {
-	for (int x = 0; x < n-1; x++)
+	for (int x = 0; x < n-1; x++){
 		if (a[x] > a[x+1]) return false;
-			return true;
+	}
+	return true;
 }
 
 int main(int argc, char * args[]) {
